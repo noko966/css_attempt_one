@@ -1,0 +1,150 @@
+/*
+*/
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+
+/*
+@box model
+*/
+.w100p{
+    width: 100%;
+}
+.w45{
+    width: 45px;
+}
+.w56{
+    width: 56px;
+}
+.h40{
+    height: 40px;
+}
+.h35{
+    height: 35px;
+}
+.lh35{
+    line-height: 35px;
+} 
+
+/*
+@margins
+*/
+.mr1{
+    margin-right: 2px;
+}
+.mr2{
+    margin-right: 4px;
+}
+.mr3{
+    margin-right: 6px;
+}
+
+/*
+@paddings
+*/
+.p1{
+    padding: 2px;
+}
+.p2{
+    padding: 4px;
+}
+.p3{
+    padding: 6px;
+}
+/*********************************/
+
+/*
+@layout
+*/
+.flx{
+    display: flex;
+}
+.flxcol{
+    display: flex;
+    flex-direction: column;
+}
+.flac{
+    align-items: center;
+}
+.flgr{
+    flex-grow: 1;
+    min-width: 1px;
+}
+.flns{
+    flex-shrink: 0;
+}
+
+/*********************************/
+
+/*
+@typography
+*/
+.tc{
+    text-align: center;
+}
+.tr{
+    text-align: right;
+}
+.tl{
+    text-align: left;
+}
+.txtell{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/*********************************/
+
+
+
+/*
+@skinning
+*/
+.bg1{
+    background-color: #2b2b2b;
+}
+.clr1{
+    color: #fff;
+}
+.bg2{
+    background-color: #333;
+}
+.clr2{
+    color: #999;
+}
+.bc1{
+    border-color: #999;
+}
+.bc2{
+    border-color: #666;
+}
+
+/*
+@border radius
+*/
+.brad1{
+    border-radius: 2px;
+}
+.brad2{
+    border-radius: 4px;
+}
+
+/*
+@border radius
+*/
+.bb1{
+    border-bottom: 1px solid;
+}
+.bt1{
+    border-top: 1px solid;
+}
+.bl1{
+    border-left: 1px solid;
+}
+.br1{
+    border-right: 1px solid;
+}
+
+/*********************************/
+
